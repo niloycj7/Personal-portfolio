@@ -3,6 +3,9 @@ body{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Roboto', sans-serif;
 }
+section {
+    margin-bottom: 50px;
+  }
 h1{
     font-size: 50px;
 }
@@ -18,24 +21,30 @@ h1{
 .half-width img{
     width: 100%;
 }
-.link-button{
+.hero-section .half-width h1 {
+    margin-top: 70px;
+  }
+.link-button {
     text-decoration: none;
-    background-image: linear-gradient(50deg,orange,red);
+    background-image: linear-gradient(50deg, orange, red);
     padding: 10px 20px;
     border-radius: 5px;
     color: blanchedalmond;
     font-weight: bold;
-
-}
-.link-button-top{
+  }
+.link-button-top {
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 20px 30px;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    margin: 0px 20px;
+  }
+  .nav-container{
+    margin-bottom: -20px!important;
+}
+
+.nav-section {
+    margin-bottom: 40px !important;
+    float: right;
 }
 h2{
     font-size: 40px;
@@ -53,12 +62,18 @@ p{
     width: 100%;
 }
 .work-project{
-    height: 200px;
+    height: 800px;
     clear: both;
+    background-color: #e5e5e5;
 }
 .about-class{
     height: 200px;
 }
 .work-inquiry img{
-    width: 50%;
+  height: 50%;
+  width: 50%;
+}
+.work-project h2{
+    text-align: center;
+    padding-top: 150px;
 }

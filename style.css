@@ -6,7 +6,7 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+.purple-highlight{
     color: purple;
 }
 .half-width{
@@ -32,11 +32,28 @@ h1{
     color: black;
     font-weight: bold;
     padding: 20px 30px;
-    float: right;
 }
 h2{
     font-size: 40px;
 }
 p{
     color: dimgray;
+}
+.quarter-width{
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+.quarter-width img{
+    width: 100%;
+}
+.work-project{
+    height: 200px;
+}
+.about-class{
+    height: 200px;
+}
+.work-inquiry img{
+    width: 50%;
 }

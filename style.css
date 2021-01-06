@@ -32,6 +32,10 @@ h1{
     color: black;
     font-weight: bold;
     padding: 20px 30px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 0px 20px;
 }
 h2{
     font-size: 40px;
@@ -50,6 +54,7 @@ p{
 }
 .work-project{
     height: 200px;
+    clear: both;
 }
 .about-class{
     height: 200px;

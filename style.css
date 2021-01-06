@@ -21,7 +21,7 @@ h1{
 .half-width img{
     width: 100%;
 }
-.hero-section .half-width h1 {
+.top-section .half-width h1 {
     margin-top: 70px;
   }
 .link-button {
@@ -55,8 +55,10 @@ p{
 .quarter-width{
     width: 30%;
     float: left;
-    margin-left: 1%;
+    margin-left: 2%;
     padding-left: 1%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
 }
 .quarter-width img{
     width: 100%;
@@ -65,15 +67,62 @@ p{
     height: 800px;
     clear: both;
     background-color: #e5e5e5;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-.about-class{
-    height: 200px;
+.about-sec{
+     margin-bottom: 100px;
+     padding-bottom: 100px;
 }
-.work-inquiry img{
-  height: 50%;
-  width: 50%;
+.work-inquiry{
+  background-image: url(shapes/Group_33094_1.png); 
+  background-repeat: no-repeat;
+  background-size: 800px 200px;
+  background-position: center; 
+  height: 200px;
 }
 .work-project h2{
     text-align: center;
     padding-top: 150px;
+}
+footer h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+footer h2{
+    text-align: center;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(50deg, orange, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    font-weight: bold;
+    text-align: right;
+}
+.link-button3{
+    text-decoration: none;
+    color: tomato;
+}
+footer img{
+    padding-left: 20px;
+    height: 40px;
+    width: 40px;
+}
+#work{
+    float: left;
+    padding-left: 450px;
+    padding-top: 40px;
+    color: white;
+}
+#link{
+    float: right;
+    padding-right: 450px;
+    padding-top: 90px;
+}
+#bot-img{
+    text-align: center;
+    padding-bottom: 40px;
 }
